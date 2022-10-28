@@ -1,0 +1,54 @@
+//Edit Screen
+.sskj-container {
+  margin-top: 1rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+.divider {
+  height: 2px;
+  background: #d0cfcf;
+}
+
+.video-preview {
+  position: relative;
+}
+
+.video-preview:hover {
+  opacity: .75;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.architect-preview {
+  padding: 15px;
+  background: #ececec;    
+  max-width: 150px;
+  overflow: clip;
+  position: relative;
+  margin-right: 10px;
+  max-height: 300px;
+  height: 300px;
+}
+
+.architect-preview p {
+  overflow: clip;
+  overflow-wrap: break-word;
+  max-height: 135px;
+}
+
+.architect-preview img {
+  width: 120px;
+}
+
+.architect-preview .close {
+  border-color: black;
+}
